@@ -1,1 +1,11 @@
-This is atm.html file
+<h1>Minimum calculation of your money;</h1>
+
+{% for money, count in calculated_cash %}
+    {{ money }}$ ==>  {{ count }} time(s)
+    <br>
+{% endfor %}
+
+<h2>Total minimum cash count is {{sum_of_min_total}}</h2>
+
+<br><br>
+<a href="{% url 'home' %}">Try Again</a>
