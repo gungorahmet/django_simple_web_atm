@@ -1,1 +1,8 @@
-This is home.html file
+<h1> Online Cash Calculator</h1>
+<br>
+
+<form action="{% url 'calc' %}">
+    Money Amount: <input type="text" name="amount">
+    <br><br>
+    <input type="submit" value="Calculate" />
+</form>
