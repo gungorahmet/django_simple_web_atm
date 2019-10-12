@@ -1,8 +1,19 @@
-<h1> Online Cash Calculator</h1>
-<br>
+<!DOCTYPE html>
+<html lang="en">
 
-<form action="{% url 'calc' %}">
-    Money Amount: <input type="text" name="amount">
-    <br><br>
-    <input type="submit" value="Calculate" />
-</form>
+<head>
+    <title>Home Page</title>
+</head>
+
+<body>
+    <h1> Online Cash Calculator</h1>
+    <br>
+
+    <form action="{% url 'calc' %}">
+        Money Amount: <input type="text" name="amount">
+        <br><br>
+        <input type="submit" value="Calculate" />
+    </form>
+</body>
+
+</html>

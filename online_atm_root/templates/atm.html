@@ -1,11 +1,22 @@
-<h1>Minimum calculation of your money;</h1>
+<!DOCTYPE html>
+<html lang="en">
 
-{% for money, count in calculated_cash %}
-    {{ money }}$ ==>  {{ count }} time(s)
+<head>
+    <title>ATM PAGE</title>
+</head>
+
+<body>
+    <h1>Minimum calculation of {{amount}}</h1>
+
+    {% for money, count in calculated_cash %}
+    {{ money }}$ ==> {{ count }} time(s)
     <br>
-{% endfor %}
+    {% endfor %}
 
-<h2>Total minimum cash count is {{sum_of_min_total}}</h2>
+    <h2>Total minimum cash count is {{sum_of_min_total}}</h2>
 
-<br><br>
-<a href="{% url 'home' %}">Try Again</a>
+    <br><br>
+    <a href="{% url 'home' %}">Try Again</a>
+</body>
+
+</html>
