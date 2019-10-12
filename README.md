@@ -2,6 +2,7 @@
 A simple project with Python 3.7 and Django 2.0.* to see what's the logic of Django.<br><br>
 <b>This question and solution is created by Ahmet Gungor.</b><br>
 <br>
+Developed on windows but works for Linux and Mac as well<br>
 <br>
 Purpose -> Imagine a website that an online ATM with works only with cash money.<br>
 User inputs his money amount (we can assume that it's dollar $). <br>
