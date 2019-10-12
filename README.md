@@ -1,8 +1,12 @@
 # Online Virtual ATM / Cash Calculator
 A simple project with Python 3.7 and Django 2.0.* to see what's the logic of Django.<br><br>
-<b>This question and solution is created by Ahmet Gungor.</b><br>
-<br>
-Developed on windows but works for Linux and Mac as well<br>
+<b>This question and solution is created by Ahmet Gungor.</b><br><br>
+
+Prerequisites:<br>
+1.) Install Python 3.7<br>
+2.) Run => "pip install django==2.0.2"<br>
+3.) Into the project path; run => "python manage.py runserver" command to run the project on 127.0.0.1:8000<br><br>
+(Developed on windows but works for Linux and Mac as well)<br>
 <br>
 Purpose -> Imagine a website that an online ATM with works only with cash money.<br>
 User inputs his money amount (we can assume that it's dollar $). <br>
