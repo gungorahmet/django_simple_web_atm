@@ -1,4 +1,4 @@
-# ginger_django
+# Online Virtual ATM / Cash Calculator
 A simple project with Python 3.7 and Django 2.0.* to see what's the logic of Django.<br><br>
 <b>This question and solution is created by Ahmet Gungor.</b><br>
 <br>
